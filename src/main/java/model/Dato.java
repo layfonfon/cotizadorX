@@ -1,6 +1,6 @@
 package model;
 
-public class Datos {
+public class Dato {
 
 	String nombre, descripcion, rutaImg;
 	float precio;
@@ -13,7 +13,7 @@ public class Datos {
 		this.descripcion = descripcion;
 	}
 	
-	public void setPrecio(int precio){
+	public void setPrecio(float precio){
 		this.precio= precio;
 	}
 	

@@ -3,11 +3,11 @@ import java.util.ArrayList;
 
 public class ItemsContainer {
 
-	ArrayList<Datos> datos;
+	ArrayList<Dato> datos;
 		
 	public ItemsContainer() {
 	
-		datos = new ArrayList<Datos>();
+		datos = new ArrayList<Dato>();
 		
 	}
 	
@@ -15,9 +15,7 @@ public class ItemsContainer {
 
 		Extractor extractor = new Extractor(rutaDeArchivo, datos);
 		
-		
-		
-		
+				
 		
 	}
 
